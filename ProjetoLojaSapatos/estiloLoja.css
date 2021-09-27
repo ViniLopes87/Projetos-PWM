@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://static.vakinha.com.br/uploads/vakinha/image/89268/Ilustra__o-Lojinha-com-Placa-Aberta-620x420.jpg?ims=700x410");
+}
+
+footer {
+    background-color: rgb(54, 59, 54);
+}
+
+div{
+    background-color: green;
+    float:left;
+}
+
+.primeiraDiv {
+    color:crimson;
+}
+
+.segundaDiv {
+    color: blue;
+}
+
+.terceiraDiv {
+    color: blueviolet;
+}
+
+.quartaDiv {
+    color: darkorange;
+}
+
+.quintaDiv {
+    color: magenta;
+}
