@@ -1,0 +1,10 @@
+p {
+    font-family:"Arial";
+    text-decoration: underline;
+}
+
+a {
+    font-family:"Times New Roman";
+    font-weight: bold;
+    color: rgb(14, 176, 240);
+}
