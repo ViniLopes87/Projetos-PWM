@@ -1,0 +1,15 @@
+.primeiraDiv {
+    background-color: rgb(238, 8, 8);
+    width:700px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.segundaDiv {
+    background-color: rgb(35, 248, 16);
+    width:700px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
