@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://www.anselmohoffmann.com.br/wp-content/uploads/2021/05/como-usar-a-cor-na-fotografia-de-paisagem-1.jpg");
+}
+
+h1 {
+    color: rgb(7, 209, 245);
+    background-color: rgb(238, 8, 8);
+    border-style: solid;
+    border-color: rgb(32, 243, 13);
+    border-width: 2px;
+}
