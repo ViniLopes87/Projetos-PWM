@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estiloRestaurante.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>Consulta de fila do restaurante</title>
+    </head>
+    <body>
+        <div id="containermeio" class="embassar">
+            <div class="infos">
+                <p>Adicionar cliente à fila:
+                </p>
+                <input id="inputName" class="form-control me-2" placeholder="Nome do cliente">
+                <p>Escolha uma cor para a ficha:
+                    <input id="inputColor" class="colorCliente" type="color" value="#f6b73c"></p>
+                <div class="btns">
+                    <button id="inputFila" class="btn btn-warning" type='button'>Colocar na fila</button>
+                    <button id="outputFila" class="btn btn-warning" type='button'>Concluir atendimento</button>
+                </div>
+            </div>
+        </div>
+        <div class="containerbaixo">
+            <table id="nomes">
+                <tr>
+                    <th>
+                        <div id="nome1" class="containernomes embassar" style="display: none;">
+                            <p id="p1"></p>
+                            <div id="num1" class="numero"></div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="nome2" class="containernomes embassar" style="display: none;">
+                            <p id="p2"></p>
+                            <div id="num2" class="numero"></div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="nome3" class="containernomes embassar" style="display: none;">
+                            <p id="p3"></p>
+                            <div id="num3" class="numero"></div>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div id="nome4" class="containernomes embassar" style="display: none;">
+                            <p id="p4"></p>
+                            <div id="num4" class="numero"></div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="nome5" class="containernomes embassar" style="display: none;">
+                            <p id="p5"></p>
+                            <div id="num5" class="numero"></div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="nome6" class="containernomes embassar" style="display: none;">
+                            <p id="p6"></p>
+                            <div id="num6" class="numero"></div>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div id="nome7" class="containernomes embassar" style="display: none;">
+                            <p id="p7"></p>
+                            <div id="num7" class="numero"></div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="nome8" class="containernomes embassar" style="display: none;">
+                            <p id="p8"></p>
+                            <div id="num8" class="numero"></div>
+                        </div>
+                    </th>
+                    <th>
+                        <div id="nome9" class="containernomes embassar" style="display: none;">
+                            <p id="p9"></p>
+                            <div id="num9" class="numero"></div>
+                        </div>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <script type='text/javascript' src='filaRestaurante.js'></script>
+    </body>
+</html>
